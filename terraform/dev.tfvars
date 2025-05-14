@@ -1,0 +1,14 @@
+region          = "us-east-1"
+vpc_name        = "final-project-vpc-bishal"
+cidr            = "10.0.0.0/16"
+azs             = ["us-east-1a", "us-east-1b"]
+public_subnets  = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnets = ["10.0.3.0/24", "10.0.4.0/24", "10.0.5.0/24", "10.0.6.0/24", "10.0.7.0/24", "10.0.8.0/24"]
+domain_name     = "bishal.sandbox.adex.ltd"
+domain_name2    = "kunwar.sandbox.adex.ltd"
+hosted_zone_id  = ""
+email           = "bishal.kunwar143@gmail.com"
+zone_name       = "sandbox.adex.ltd"
+instance_medium = "t2.medium"
+instance_small  = "t2.micro"
+username        = "admin"
